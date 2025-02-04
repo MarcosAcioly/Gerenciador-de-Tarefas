@@ -1,0 +1,47 @@
+ul {
+    list-style: none;
+    }
+    
+    .tarefa {
+    border: 1px solid #5c5c5c;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 10px;
+    }
+    
+    .descricao_tarefa {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    }
+    
+    h2 {
+    border-right: 2px solid #5c5c5c;
+    padding-right: 16px;
+    }
+    
+    .etiqueta {
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 4px 8px;
+    }
+    
+    .etiquetas {
+    display: flex;
+    gap: 8px;
+    }
+    
+    .etiqueta_prioridade.alta {
+    background-color: red;
+    color: white;
+    }
+    
+    .etiqueta_prioridade.média {
+    background-color: orange;
+    color: white;
+    }
+    
+    .etiqueta_prioridade.baixa {
+    background-color: green;
+    color: white;
+    }
