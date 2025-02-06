@@ -1,0 +1,70 @@
+ul {
+    list-style: none;
+    }
+
+.um{
+    display: flex;
+    justify-content: center;
+}
+    
+.tarefa {
+    width: 1024px;
+    box-sizing: border-box;
+    border: 1px solid var(--cinza-tundora);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 10px;
+}
+
+.descricao_tarefa {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+h2 {
+border-right: 2px solid var(--cinza-tundora);
+padding-right: 16px;
+}
+
+.etiqueta, .etiqueta_prioridade {
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    border: 1px solid var(--cinza-nobel);
+    border-radius: 4px;  
+    color: var(--cinza-nobel);
+}
+
+.etiquetas {
+    display: flex;
+    gap: 8px;
+}
+
+.etiqueta_prioridade{
+    border: none;
+    color: var(--branco);
+}
+
+.etiqueta_prioridade.alta {
+background-color: var(--vermelho);
+color: white;
+}
+
+.etiqueta_prioridade.média {
+background-color: var(--amarelo);
+color: white;
+}
+
+.etiqueta_prioridade.baixa {
+background-color: var(--verde);
+color: white;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    width: 1024
+    px;
+}
+  
